@@ -14,12 +14,12 @@
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.wasusi.foodie.ui.dashboard.MenuFragment"
-        android:label="@string/title_dashboard"
+        android:label="Menu"
         tools:layout="@layout/fragment_menu" />
 
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.wasusi.foodie.ui.notifications.CartFragment"
-        android:label="@string/title_notifications"
+        android:label="Cart"
         tools:layout="@layout/fragment_cart" />
 </navigation>
